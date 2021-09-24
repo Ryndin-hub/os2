@@ -22,6 +22,6 @@ int main() {
         exit(EXIT_ERROR);
     }
     print_lines("parent");
-    pthread_exit(&thread);
+    pthread_exit(NULL);
     return EXIT_SUCCESS;
 }
